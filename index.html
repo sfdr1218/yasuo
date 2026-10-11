@@ -324,9 +324,7 @@
     }
 
     function openPdf() {
-      pdfFrame.src = "doc.pdf";
-      pdfOverlay.classList.add("open");
-      document.body.style.overflow = "hidden";
+      window.open("doc.pdf", "_blank");
     }
 
     function closePdf() {
